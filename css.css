@@ -1,0 +1,457 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   }
+    main{
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 70px;
+   }
+   h1{
+    padding-top: 38px;
+   padding-left: 30px;
+    }
+    ul{
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+    padding-right: 90px;
+    font-size: 15px;
+    /* background-color: brown; */
+    }
+    li{
+   list-style: none;
+    gap: 10px;
+    list-style: none;
+    
+   }
+   li:hover{
+    color: rgb(173, 64, 64);
+    
+   }
+   a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+   }
+   .main-button{
+    margin-bottom: 30px;
+    border-radius: 30px;
+    height: 40px;
+    width: 9em;
+    padding: 10px;
+    background-color: rgb(255, 40, 40);
+  
+    color: white;
+    
+   }
+  
+   .main-span{
+    color: brown;
+   }
+   .navigation{
+   background-color:rgb(201, 198, 198);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    }
+
+   .picture-front{
+    text-transform: capitalize;
+    font-size: 70px;
+    padding: 20px;
+    color: rgb(131, 129, 129);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 209,209);
+    }
+    .image{
+    padding: 40px;   
+    } 
+    .div-text{
+    font-size: 19px;
+    text-transform: lowercase;
+   }
+    .last{
+   border-radius: 30px;
+    height: 60px;
+    width: 4em;
+    display: flex;
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+   }
+   button{
+    width: 10em;
+    border-radius: 20px;
+    height: 3em;
+    background-color: rgb(255, 40, 40)
+   }
+   .learn-more{
+    text-align: center;
+    padding-top: 30px;
+
+   }
+   .hero{
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 29px;
+    font-style: normal;
+    padding-top: 30px;
+
+    }
+  span{
+    color: rgb(233, 80, 80);
+   }
+   .front{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 50px;
+   padding-right: 30px;
+   
+  }
+   .front-image{
+    padding-right: 4em;
+    
+   }
+   .about-jpg{
+    padding-left: 30px;
+   }
+   ol{
+    padding-top: 10px;
+   }
+    .second{
+    padding-top: 20px;  
+     list-style-type: square; 
+    }
+    .number{
+   padding-left: 1em;
+   }
+   .your{
+    border: 3px solid;
+    width: 29em;
+    height: 9em;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 20px;
+   }
+   .call{
+    padding-top: 30px;
+   padding-left: 30px;
+   }
+   span{
+   padding-top: 40px;
+   padding-left: 20PX;
+   }
+   .part{
+    padding-top: 40px;
+    color: rgb(153, 152, 152);
+   }
+   #first-lorem{
+    color: rgb(153, 152, 152);
+   }
+   .image {
+    padding-top: 90px;
+    display: flex; 
+   justify-content: start;
+   padding-left: 90px;
+   }
+   .why-choose-yummy{
+    background-color: rgb(216, 216, 216) ;
+    background-position: center;
+    background-size: cover;
+
+   width: 100%;
+   height: 54em;
+   display: flex;
+   flex-direction: row;
+   
+   }
+   #Yummy {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-direction: column;
+   }    
+   #first{
+    border:3px solid;
+    border: 20px;
+    width: 28%;
+    height: 29em;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(231, 16, 16);
+    color: white;
+    margin-left: 30px;
+   } 
+   .why{
+   padding-bottom: 20px;
+   font-weight: bolder;
+   font-size: 40px;
+    justify-content: left;
+    padding-left: 20px;
+
+   }
+   button:hover{
+    background-color: white;
+   }
+   #why-button{
+    padding-top: 30px;
+    height: 3em;
+    height: 50px;
+    color: white;
+    
+   }
+   learnmore{
+    color: white;
+   }
+   .corpulla {
+    display: flex;
+    flex-direction: column;
+   }
+   #corporis{
+    border-radius: 20px;
+   margin-top: 41px;
+    height: 16em;
+    background-color: rgb(255, 255, 255);
+    width: 38em;
+    margin-left: 30px;
+   }
+   .porise{
+    padding-top: 50px;
+    text-align: center;
+    /* background-position: center;
+    background-size: cover; */
+   }
+   .Consequuntur{
+    padding-top: 20px;
+   text-align: center;
+   }
+   #ullamco{
+    padding-top: 5r0px;
+   text-align: center;
+   text-align: center;
+   padding-left: 40px;
+   height: 40%;
+   width: 40%;
+   }
+   .laboris{
+   border-radius: 20px;
+   padding-left: 40px;
+   height: 12em;
+   width: 36em;
+   padding-top: 50px;
+   margin-top: 20px;
+   margin-left: 30px;
+   background-color: rgb(255, 255, 255);
+   }
+   .lore{
+    text-align: center;
+    padding-top: 20px;
+   }
+   .culpa{
+    padding-top: 20PX;
+   }
+   .labore{
+    border-radius: 20px;
+   padding-left: 40px;
+   height: 12em;
+   width: 36em;
+   padding-top: 50px;
+   margin-top: 20px;
+   margin-left: 30px;
+   background-color: rgb(255, 255, 255);
+   }
+   .consequatur{
+    padding-top: 30px;
+    text-align: center;
+   }
+   .nemo{
+    padding-top: 20px;
+   }
+   #stats-image{
+    background-image: url(./stats-bg.jpg); 
+    height: 30em;
+    width: 100%;
+   }
+   .numbering{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25%;
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: bolder;
+   }
+   .menu-bar{
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(92, 90, 90);
+   }  
+   .our{
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+   }
+   .llo{
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;
+    text-align: center;
+    margin-left: 19%;
+
+   }
+   .starters{
+    display: flex;
+    text-align: center;
+   }
+
+   .llo:hover{
+    line-height: 20px;
+    cursor: pointer;
+   }
+   #second-menu{
+    padding-top: 4rem;
+    text-align: center;
+    margin-left: 5%;
+    color: rgb(94, 91, 91);
+   }
+   .cat{
+    text-align: center;
+    padding-left: 5%;
+     padding-bottom: 40px;
+     font-size: 30px; color: rgb(185, 30, 30);
+     
+   }
+   .three-image{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20em;
+   }
+   #TESTIMONIAL{
+    background-color: #c9ced3;
+    text-align: center;
+    padding-top: 60px;
+   }
+   .lord{
+    font-size: 26px;
+    font-weight: lighter;
+    text-transform: initial;
+   }
+   .out{
+    padding-left: 30%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 40px;
+   
+    
+    
+  }  
+  .out article{
+    border-left: 3px solid red; 
+    padding-top: 30px;
+    
+  } 
+  .saul{
+    font-size: 20px;
+    padding-bottom: 10%;
+    padding-right: 50%;
+  }
+  #parties{
+    background-image: url(./events-1.jpg);
+    height: 40em;
+    width: 100%;
+   
+    margin-top: 3em;
+    
+  }
+  .indomie{
+    padding-top: 30em;
+    padding-left: 30px;
+    color: white;
+  }
+  hr{
+    width: 31px;
+    color: rgb(255, 100, 100);
+  }
+  .professional{
+    text-align:center;
+    padding-top: 5em;
+  }
+  .cook{
+    font-size: 3em;
+    font-weight: lighter;
+  }
+  .cooking{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    height: 90%;
+    
+  }
+  .cooking:hover{
+    cursor: pointer;
+    
+  }
+  .end{
+    padding-top: 70px;
+    color: rgb(146, 146, 146);
+  }
+  .chair{
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .chair input {
+    width: 30%;
+    height: 40%;
+  }
+  .table{
+    height: 100px;
+    
+  }
+   .table input{
+    width: 100%;
+    height: 80%;
+   }
+   .submition{
+    text-align: center;
+    padding-top: 20px;
+   
+    
+   }
+
+   .submition input{
+    width: 40%;
+    height: 3em;
+    background-color:  rgb(185, 30, 30);
+   }
+   #Gallery-section{
+    margin-top: 5%;
+    background-color: #cccecf;
+    text-align: center;
+    padding-top: 30px;
+   }
+   #many-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4em;
+   }
+   #contacting{
+    text-align: center;
+    padding-top: 2rem;
+   }
+   
+  
+  
